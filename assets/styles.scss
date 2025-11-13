@@ -3,37 +3,43 @@ title: false
 styles: true
 ---
 
-// Custom variables (if you like)
+/* ----------------------------
+   Optional variables
+   ---------------------------- */
+// Adjust header padding from bottom
 $header-padding-bottom: 40px;
-$header-overlay-color: rgba(0, 0, 0, 0.3);
+// Adjust overlay darkness for better contrast
+$header-overlay-color: rgba(0,0,0,0.3);
 
+/* ----------------------------
+   Import Alembic theme
+   ---------------------------- */
 @import "alembic";
 
-// Custom styles
+/* ----------------------------
+   Custom styles (override defaults)
+   ---------------------------- */
 .home-header-inner {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  height: 100%;
+  display: flex;              /* maintain flex layout */
+  flex-direction: column;     /* stack title + description */
+  justify-content: flex-end;  /* move content to bottom */
+  height: 100%;               /* fill header container */
   padding-bottom: $header-padding-bottom;
-  text-align: center;
-  color: #fff;
+  text-align: center;         /* center horizontally */
+  color: #fff;                /* ensure text is white */
 }
 
 .home-header::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: $header-overlay-color;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: $header-overlay-color; /* overlay for contrast */
   z-index: 0;
 }
 
 .home-header-inner h1,
 .home-header-inner p {
   position: relative;
-  z-index: 1;
-  color: #fff;
+  z-index: 1;                 /* appear above overlay */
+  color: #fff;                /* force white text */
 }
