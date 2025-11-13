@@ -1,5 +1,5 @@
 ---
-title: Media Mapper
+title: 
 feature_text: |
   ## media mapper
   An open source mapping tool for digital humanities projects
@@ -13,7 +13,7 @@ The Aqueous Earth Catalog and Media Mapper are both produced by Ennuri Jo, a med
 
 ## Media Mapper in Action
 
-- <a href=https://aqueous.earth> Aqueous Earth Catalog </a>
-- <a href=https://media-mapper0shar.vercel.app/> Shark Attack! </a>
+<a href=https://aqueous.earth> Aqueous Earth Catalog </a>
+<a href=https://media-mapper0shar.vercel.app/> Shark Attack! </a>
 
 ### Happy exploring!
