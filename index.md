@@ -1,9 +1,9 @@
 ---
 title: About Alembic
 feature_text: |
-  ## Media Mapper
-  An open source mapping tool designed to be a starting point for any digital humanities project using geospatial data
-feature_image: "https://raw.githubusercontent.com/ennurijo/alembic/main/assets/cloudheader.png"
+  ## 
+ 
+feature_image: "https://raw.githubusercontent.com/ennurijo/alembic/main/assets/cloudheadertext.png"
 excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
 
