@@ -3,8 +3,8 @@ title: About Alembic
 layout: home
 feature_text: |
   ## Media Mapper
-  A Jekyll boilerplate theme designed to be a starting point for any Jekyll website
-feature_image: "https://raw.githubusercontent.com/ennurijo/alembic/main/assets/faintbluemarble.png"
+  An open source mapping tool designed to be a starting point for any digital humanities project using geospatial data
+feature_image: "https://raw.githubusercontent.com/ennurijo/alembic/main/assets/cloudheader.png"
 excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
 
