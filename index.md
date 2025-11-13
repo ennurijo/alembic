@@ -14,7 +14,7 @@ The Aqueous Earth Catalog and Media Mapper are both produced by Ennuri Jo, a med
 
 ##* Media Mapper in Action
 
-- Aqueous Earth Catalog https://aqueous.earth 
-- Shark Attack! https://media-mapper0shar.vercel.app/
+- [Aqueous Earth Catalog] (https://aqueous.earth) 
+- [Shark Attack!] (https://media-mapper0shar.vercel.app/)
 
 Happy exploring!
