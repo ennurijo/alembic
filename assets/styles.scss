@@ -4,3 +4,35 @@ styles: true
 ---
 
 @import "alembic";
+
+// ===============================
+// Custom: Move homepage title to bottom
+// ===============================
+$header-padding-bottom: 40px !default;
+$header-overlay-color: rgba(0, 0, 0, 0.3) !default;
+
+.home-header-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  padding-bottom: $header-padding-bottom;
+  text-align: center;
+  color: #fff;
+}
+
+.home-header::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: $header-overlay-color;
+  z-index: 0;
+}
+
+.home-header-inner h1,
+.home-header-inner p {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+
