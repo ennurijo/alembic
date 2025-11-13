@@ -1,6 +1,5 @@
 ---
 title: About Alembic
-layout: home
 feature_text: |
   ## Media Mapper
   An open source mapping tool designed to be a starting point for any digital humanities project using geospatial data
