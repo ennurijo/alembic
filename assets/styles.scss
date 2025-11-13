@@ -3,14 +3,13 @@ title: false
 styles: true
 ---
 
+// Custom variables (if you like)
+$header-padding-bottom: 40px;
+$header-overlay-color: rgba(0, 0, 0, 0.3);
+
 @import "alembic";
 
-// ===============================
-// Custom: Move homepage title to bottom
-// ===============================
-$header-padding-bottom: 40px !default;
-$header-overlay-color: rgba(0, 0, 0, 0.3) !default;
-
+// Custom styles
 .home-header-inner {
   display: flex;
   flex-direction: column;
@@ -24,7 +23,10 @@ $header-overlay-color: rgba(0, 0, 0, 0.3) !default;
 .home-header::before {
   content: "";
   position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background: $header-overlay-color;
   z-index: 0;
 }
@@ -35,4 +37,3 @@ $header-overlay-color: rgba(0, 0, 0, 0.3) !default;
   z-index: 1;
   color: #fff;
 }
-
